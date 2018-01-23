@@ -1,4 +1,7 @@
-function logger(config = {}) {
+function logger(config) {
+  config = config || {};
+
+  // return middleware
   return function(store) {
     return function(next) {
       return function(action) {

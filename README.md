@@ -13,9 +13,14 @@
 ## Usage
 
 ```javascript
-const logger = require("@axetroy/redux-zero-logger");
+const logger = require("redux-zero-logger");
 
-// TODO
+const middlewares = applyMiddleware(
+  logger,
+  antoherMiddleware
+);
+
+const store = createStore(initialState, middlewares);
 ```
 
 ## Contributing
