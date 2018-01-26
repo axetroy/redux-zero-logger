@@ -2,8 +2,11 @@
   "name": "redux-zero-logger",
   "version": "0.0.3",
   "description": "redux-zero logger middleware",
-  "main": "index.js",
+  "main": "./dist/index.js",
   "scripts": {
+    "server": "libpack ./index.js ./dist --server",
+    "start": "libpack ./index.js ./dist --watch",
+    "build": "rm -rf ./dist && libpack ./index.js ./dist",
     "test": "nyc ava"
   },
   "repository": {
