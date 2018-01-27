@@ -16,7 +16,7 @@
 const logger = require("redux-zero-logger");
 
 const middlewares = applyMiddleware(
-  logger,
+  logger(),
   antoherMiddleware
 );
 
