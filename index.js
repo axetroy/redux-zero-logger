@@ -5,7 +5,7 @@
  */
 function logger(config = {}) {
   // return an middleware
-  return state => next => action => {
+  return store => next => action => {
     const prevState = store.getState();
     const r = next(action);
 

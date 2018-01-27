@@ -18,3 +18,5 @@ doc
 pag
 .cache
 .babelrc
+yarn.lock
+package-lock.json
