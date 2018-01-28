@@ -13,6 +13,8 @@
 ## Usage
 
 ```javascript
+const createStore = require("redux-zero")
+const applyMiddleware = require("redux-zero/middleware")
 const logger = require("redux-zero-logger");
 
 const middlewares = applyMiddleware(
