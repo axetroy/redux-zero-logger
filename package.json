@@ -21,9 +21,9 @@
   "homepage": "https://github.com/axetroy/redux-zero-logger#readme",
   "dependencies": {},
   "devDependencies": {
-    "@axetroy/libpack": "^0.6.4",
-    "ava": "^0.25.0",
-    "coveralls": "^3.0.0",
-    "nyc": "^11.4.1"
+    "@axetroy/libpack": "0.6.5",
+    "ava": "0.25.0",
+    "coveralls": "3.0.3",
+    "nyc": "11.9.0"
   }
 }
